@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fbfbf9;
+}
+
+h2 {
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: -15px;
+    margin-left: 70px;
+    color: #3d3a37;
+}
+
+button img {
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 80px;
+    height: auto;
+    max-height: 80px;
+}
+
+button img:hover {
+    opacity: 50%;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    height: 100%;
+}
+
+
+/* TOP BAR */
+
+.topNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topNav h1 {
+    padding: 50px;
+    font-size: 59px;
+    color: #1153bd;
+}
+
+.logo img {
+    width: 670px;
+}
+
+.navButtons {
+    margin-right: 10px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navButtons img {
+    width: 120px;
+    max-height: 47px;
+    object-fit: contain;
+    margin-right: 27px;
+}
+
+.navButtons2 {
+    display: none;
+}
+
+.navButtons2 img {
+    width: 120px;
+    margin-right: 27px;
+}
+
+.stripesButtons {
+    display: none;
+}
+
+.mobileNav {
+    display: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: -20px;
+    margin-top: 40px;
+}
+
+.picText img {
+    height: 60px;
+    width: auto;
+    margin-left: -10px;
+}
+
+.actText {
+    display: none;
+}
+
+.rightSide {
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-radius: 25px;
+    border: none padding-bottom: 40px;
+    width: 280px;
+    height: 470px;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+
+/* GALLERY */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+
+/* hover styles */
+
+.gallery-listing {
+    position: relative;
+}
+
+.gallery-image {
+    line-height: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.gallery-image img {
+    padding: 10px;
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+    width: 95%;
+    height: 130%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.gallery-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(165, 38, 201, 0.562);
+    color: #fdff71c0;
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-listing:hover .gallery-title {
+    opacity: 1;
+}
+
+.gallery-listing:hover .gallery-image img {
+    filter: blur(2px);
+}
+
+.curved-div svg {
+    display: block;
+    margin-bottom: -1%;
+}
+
+@media only screen and (min-width: 20px) and (max-width: 734px) {
+    body {
+        /* background-color: hotpink; */
+    }
+    .mobileNav {
+        display: none;
+    }
+    .logo img {
+        max-width: 400px;
+    }
+    .topNav {
+        background-color: transparent;
+    }
+    .topNav h1 {
+        font-size: 49px;
+        color: #1153bd;
+        margin-left: -48px;
+    }
+    .topNav {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 49px;
+    }
+    .navButtons {
+        display: none;
+    }
+    .navButtons2 {
+        display: none;
+    }
+    .stripesButtons {
+        display: flex;
+        margin-right: 10px;
+    }
+    .stripesButtons img {
+        width: 40px;
+    }
+    .curved-div svg {
+        margin-top: 40%;
+        display: block;
+    }
+    .dinosaur {
+        margin-top: -60%;
+    }
+    .dinosaur svg {
+        width: 47%;
+    }
+}
+
+@media only screen and (min-width: 735px) and (max-width: 842px) {
+    body {
+        /* background-color: orange; */
+    }
+    .logo img {
+        max-width: 400px;
+    }
+    .mobileNav {
+        display: none;
+    }
+    .content {
+        margin-left: 300px;
+        width: 50%;
+    }
+    .topNav h1 {
+        font-size: 49px;
+    }
+    .navButtons2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .navButtons2 img {
+        width: 100px;
+        max-height: 35px;
+        object-fit: contain;
+        margin-right: 27px;
+    }
+    .allSliders {
+        display: flex;
+        justify-content: center;
+    }
+    .navButtons {
+        display: none;
+    }
+    .dinosaur {
+        margin-top: -47%;
+    }
+}
+
+@media only screen and (min-width: 843px) and (max-width: 1039px) {
+    body {
+        /* background-color: greenyellow; */
+    }
+    .logo img {
+        max-width: 450px;
+    }
+    .mobileNav {
+        display: none;
+    }
+    .topNav h1 {
+        font-size: 49px;
+    }
+    .navButtons2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .navButtons2 img {
+        width: 100px;
+        max-height: 45px;
+        object-fit: contain;
+        margin-right: 27px;
+    }
+    .navButtons {
+        display: none;
+    }
+    .dinosaur {
+        margin-top: -47%;
+    }
+}
+
+@media only screen and (min-width: 1040px) and (max-width: 1169px) {
+    body {
+        /* background-color: royalblue; */
+    }
+    .logo img {
+        max-width: 500px;
+    }
+    .mobileNav {
+        display: none;
+    }
+    .topNav h1 {
+        font-size: 49px;
+    }
+    .navButtons2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .navButtons {
+        display: none;
+    }
+    .dinosaur {
+        margin-top: -47%;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    body {
+        /* background-color: pink; */
+    }
+    .mobileNav {
+        display: none;
+    }
+    .topNav h1 {
+        font-size: 49px;
+    }
+    .navButtons2 {
+        display: none;
+    }
+}

@@ -1,0 +1,1107 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #fbfbf9;
+    }
+    
+    h2 {
+        font-family: 'Courier New', monospace;
+        font-weight: lighter;
+        font-size: 60px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-left: -15px;
+        margin-left: 70px;
+        color: #3d3a37;
+    }
+    
+    button img {
+        padding: 0;
+        font-size: 0;
+        border: none;
+        width: 80px;
+        height: auto;
+        max-height: 80px;
+    }
+    
+    button img:hover {
+        opacity: 50%;
+    }
+    
+    button {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        height: 100%;
+    }
+    
+    .container {
+        overflow: hidden;
+    }
+    /* TOP BAR */
+    
+    .topNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .topNav h1 {
+        padding: 50px;
+        font-size: 59px;
+        color: #1153bd;
+    }
+    
+    .logo img {
+        width: 670px;
+    }
+    
+    .navButtons {
+        margin-right: 10px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .navButtons img {
+        width: 120px;
+        max-height: 47px;
+        object-fit: contain;
+        margin-right: 27px;
+    }
+    
+    .navButtons2 {
+        display: none;
+    }
+    
+    .navButtons2 img {
+        width: 120px;
+        margin-right: 27px;
+    }
+    
+    .catBuild img {
+        margin-right: -5px;
+    }
+    
+    .stripesButtons {
+        display: none;
+    }
+    
+    .mobileNav {
+        display: none;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .leftSide {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: -20px;
+        margin-top: 40px;
+    }
+    
+    .picText img {
+        height: 60px;
+        width: auto;
+        margin-left: -10px;
+    }
+    
+    .actText {
+        display: none;
+    }
+    /* .yellowBox {
+    background-color: #fff132a4;
+    width: 450px;
+    height: clamp(47px, 250%, 1340px);
+    margin-top: 159px;
+    margin-right: clamp(47px, 5%, 200px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+} */
+    /* SLIDER */
+    
+    .allSliders {
+        display: flex;
+        width: 1000px;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    .slick-slide {
+        /* background: #fff132a4; */
+        color: #BB2CB7;
+        padding: 40px;
+        font-size: 30px;
+        font-family: "Arial", "Helvetica";
+        text-align: center;
+        width: 3px;
+    }
+    
+    .slick-arrow:before {
+        background: black;
+    }
+    
+    .slider {
+        margin: 30px;
+    }
+    /* CLOTHES TOP */
+    
+    .top {
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+    
+    .top h2 {
+        padding-left: 50px;
+    }
+    
+    .topPicker {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .topTitle {
+        padding-left: 340px;
+        width: 300px;
+    }
+    
+    .topContent {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -100px;
+    }
+    
+    .topInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-left: -100px;
+    }
+    /* SLIDER TOP */
+    
+    .slider-titleTop {
+        width: 250%;
+        margin-bottom: -60px;
+    }
+    
+    .slider-titleTop img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        width: 70%;
+        max-height: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .slider-picTop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -130px;
+        width: 75%;
+        height: 60%;
+    }
+    
+    .slider-picTop img {
+        object-fit: contain;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 70px;
+        width: 95%;
+        height: 130%;
+        max-height: 440px;
+    }
+    
+    .slider-descTop {
+        width: 500px;
+        padding-left: 70px;
+    }
+    
+    .slider-descTop h3 {
+        font-family: 'Courier New', monospace;
+        color: #3d3a37;
+        font-weight: lighter;
+        font-size: 27px;
+        text-align: left;
+        width: 90%;
+        padding-right: -50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .slider-arrowTop {
+        display: flex;
+        /* background-color: blueviolet; */
+        width: 100px;
+        margin-bottom: 200px;
+        margin-right: 100px;
+    }
+    
+    .slider-arrowTop img {
+        object-fit: contain;
+        width: 100px;
+        height: 90%;
+        margin-left: -100px;
+    }
+    /* PANTS */
+    
+    .pants {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        scroll-snap-align: start;
+    }
+    
+    .pantTitle {
+        margin-left: -67px;
+        width: 300px;
+    }
+    
+    .pants h2 {
+        margin-left: -90px;
+    }
+    
+    .pantContent {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-right: 90px;
+        margin-top: -170px;
+        margin-bottom: -100px;
+    }
+    
+    .pantInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 170px;
+    }
+    /* SLIDER PANTS */
+    
+    .slider-titlePant {
+        width: 250%;
+    }
+    
+    .slider-titlePant img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        width: 90%;
+        max-height: 90px;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    
+    .slider-picPant {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 90px;
+        width: 76%;
+        height: 100%;
+        /* margin-right: 90px; */
+        margin-top: -100px;
+    }
+    
+    .slider-picPant img {
+        object-fit: contain;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -60px;
+        padding-left: 100px;
+        width: 88%;
+        height: 150%;
+        max-height: 600px;
+    }
+    
+    .slider-descPant {
+        width: 500px;
+        margin-top: -45px;
+        margin-left: 370px;
+        padding-right: 100px;
+    }
+    
+    .slider-descPant h3 {
+        font-family: 'Courier New', monospace;
+        color: #3d3a37;
+        font-weight: lighter;
+        font-size: 27px;
+        text-align: left;
+        width: 100%;
+        height: 140%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .slider-arrowPant {
+        display: flex;
+        /* background-color: blueviolet; */
+        width: 100px;
+        margin-bottom: 120px;
+    }
+    
+    .slider-arrowPant img {
+        object-fit: contain;
+        width: 100px;
+        height: 90%;
+        margin-left: -100px;
+    }
+    /* SHOES */
+    
+    .shoe {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .shoe h2 {
+        padding-left: 50px;
+        margin-bottom: -30px;
+    }
+    
+    .shoeTitle {
+        padding-left: 340px;
+        width: 300px;
+    }
+    
+    .shoePicker {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .shoeContent {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -100px;
+    }
+    
+    .shoeInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-left: -100px;
+    }
+    /* SLIDER SHOES */
+    
+    .slider-titleShoe {
+        width: 250%;
+        margin-bottom: -60px;
+    }
+    
+    .slider-titleShoe img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        width: 70%;
+        max-height: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .slider-picShoe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -130px;
+        width: 75%;
+        height: 60%;
+    }
+    
+    .slider-picShoe img {
+        object-fit: contain;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 70px;
+        width: 90%;
+        height: 150%;
+        max-height: 400px;
+    }
+    
+    .slider-descShoe {
+        width: 500px;
+        padding-left: 70px;
+    }
+    
+    .slider-descShoe h3 {
+        font-family: 'Courier New', monospace;
+        color: #3d3a37;
+        font-weight: lighter;
+        font-size: 27px;
+        text-align: left;
+        width: 90%;
+        padding-right: -50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .slider-arrowShoe {
+        display: flex;
+        /* background-color: blueviolet; */
+        width: 100px;
+        margin-bottom: 200px;
+        margin-right: 100px;
+    }
+    
+    .slider-arrowShoe img {
+        object-fit: contain;
+        width: 100px;
+        height: 90%;
+        margin-left: -100px;
+    }
+    /* ACCESSORIES */
+    
+    .accessory {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .accTitle {
+        margin-left: -67px;
+        width: 300px;
+    }
+    
+    .accessoryPicker {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .accessory h2 {
+        margin-left: -90px;
+    }
+    
+    .accContent {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-right: 90px;
+        margin-top: -170px;
+        margin-bottom: -100px;
+    }
+    
+    .accInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 170px;
+    }
+    /* ACCEESSORY PANTS */
+    
+    .slider-titleAcc {
+        width: 250%;
+        margin-left: -30px;
+    }
+    
+    .slider-titleAcc img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        width: 90%;
+        max-height: 90px;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    
+    .slider-picAcc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 30px;
+        width: 75%;
+        height: 100%;
+        margin-right: 300px;
+        margin-top: 10px;
+    }
+    
+    .slider-picAcc img {
+        object-fit: contain;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: -100px;
+        padding-right: 250px;
+        width: 88%;
+        height: 150%;
+        max-width: 400px;
+        max-height: 230px;
+    }
+    
+    .slider-descAcc {
+        width: 500px;
+        margin-top: -45px;
+        margin-left: 570px;
+        padding-right: 100px;
+    }
+    
+    .slider-descAcc h3 {
+        font-family: 'Courier New', monospace;
+        color: #3d3a37;
+        font-weight: lighter;
+        font-size: 27px;
+        text-align: left;
+        width: 100%;
+        height: 140%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .slider-arrowAcc {
+        display: flex;
+        /* background-color: blueviolet; */
+        width: 100px;
+        margin-bottom: 120px;
+        margin-top: -30px;
+    }
+    
+    .slider-arrowAcc img {
+        object-fit: contain;
+        width: 100px;
+        height: 90%;
+        margin-left: -100px;
+    }
+    /* RINGS */
+    
+    .rings {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ringsPicker {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ring h2 {
+        padding-left: 50px;
+        margin-bottom: -30px;
+    }
+    
+    .ringTitle {
+        padding-left: 340px;
+        width: 300px;
+    }
+    
+    .ringPicker {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ringContent {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -100px;
+    }
+    
+    .ringInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-left: -100px;
+    }
+    /* SLIDER RING */
+    
+    .slider-titleRing {
+        width: 250%;
+        margin-top: -20px;
+        margin-bottom: -60px;
+        margin-left: -50px;
+    }
+    
+    .slider-titleRing img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        width: 80%;
+        max-height: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .slider-picRing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -130px;
+        width: 75%;
+        height: 60%;
+    }
+    
+    .slider-picRing img {
+        object-fit: contain;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 70px;
+        width: 90%;
+        height: 150%;
+        max-height: 270px;
+    }
+    
+    .slider-descRing {
+        width: 500px;
+        padding-left: 70px;
+    }
+    
+    .slider-descRing h3 {
+        font-family: 'Courier New', monospace;
+        color: #3d3a37;
+        font-weight: lighter;
+        font-size: 27px;
+        text-align: left;
+        width: 90%;
+        padding-right: -50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .slider-arrowRing {
+        display: flex;
+        /* background-color: blueviolet; */
+        width: 100px;
+        margin-bottom: 200px;
+    }
+    
+    .slider-arrowRing img {
+        object-fit: contain;
+        width: 100px;
+        height: 90%;
+        margin-left: -100px;
+    }
+    /* DONE!!!! now the bottom stuff */
+    
+    .bottomArt {
+        padding-top: 100px;
+    }
+    
+    .curved-div svg {
+        display: block;
+        margin-top: 6%;
+        margin-bottom: -1.5%;
+        width: 100%;
+    }
+    
+    .dinosaur {
+        display: flex;
+        align-content: flex-end;
+        justify-content: flex-end;
+        margin-top: -47%;
+        margin-right: 7%;
+        border: #BB2CB7;
+    }
+    
+    .dinosaur svg {
+        color: #BB2CB7;
+        width: 35%;
+    }
+    
+    @media only screen and (min-width: 20px) and (max-width: 734px) {
+        body {
+            /* background-color: hotpink; */
+        }
+        .mobileNav {
+            display: none;
+        }
+        .logo img {
+            max-width: 400px;
+        }
+        .topNav {
+            background-color: transparent;
+        }
+        .topNav h1 {
+            font-size: 49px;
+            color: #1153bd;
+            margin-left: -48px;
+        }
+        .topNav {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 49px;
+        }
+        .navButtons {
+            display: none;
+        }
+        .navButtons2 {
+            display: none;
+        }
+        .stripesButtons {
+            display: flex;
+            margin-right: 10px;
+        }
+        .stripesButtons img {
+            width: 40px;
+        }
+        .leftSide {
+            display: flex;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        .picText {
+            display: flex;
+            justify-content: center;
+        }
+        /* TOPS */
+        .topTitle {
+            display: flex;
+            justify-content: center;
+        }
+        .topContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .topInfo {
+            display: flex;
+            align-items: center;
+        }
+        /* PANTS */
+        .pantTitle {
+            display: flex;
+            align-items: center;
+            margin-left: 70px;
+        }
+        .pantContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .pantInfo {
+            display: flex;
+            align-items: center;
+            margin-top: -2%;
+        }
+        /* SHOES */
+        .shoeTitle {
+            display: flex;
+            justify-content: center;
+        }
+        .shoeContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .shoeInfo {
+            display: flex;
+            align-items: center;
+        }
+        /* ACCESSORIES */
+        .accessory h2 {
+            display: flex;
+            justify-content: center;
+        }
+        .accTitle {
+            display: flex;
+            align-items: center;
+            margin-left: 70px;
+        }
+        .accContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            padding-left: -100px;
+        }
+        .accInfo {
+            display: flex;
+            align-items: center;
+            margin-top: -2%;
+        }
+        /* RiNGS */
+        .rings h2 {
+            display: flex;
+            justify-content: center;
+        }
+        .ringTitle {
+            display: flex;
+            justify-content: center;
+            margin-left: 100px;
+            padding-right: -100px;
+        }
+        .ringContent {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .ringInfo {
+            display: flex;
+            align-items: center;
+        }
+        /* END */
+        .curved-div svg {
+            margin-top: 40%;
+            display: block;
+        }
+        .leftSide {
+            margin-left: 5%;
+        }
+        .leftSide h2 {
+            margin-left: -10px;
+        }
+        .dinosaur {
+            margin-top: -60%;
+        }
+        .dinosaur svg {
+            width: 47%;
+        }
+    }
+    
+    @media only screen and (min-width: 735px) and (max-width: 842px) {
+        body {
+            /* background-color: orange; */
+        }
+        .logo img {
+            max-width: 400px;
+        }
+        .mobileNav {
+            display: none;
+        }
+        .content {
+            margin-left: 300px;
+            width: 50%;
+        }
+        .topNav h1 {
+            font-size: 49px;
+        }
+        .navButtons2 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        .allSliders {
+            display: flex;
+            justify-content: center;
+        }
+        .navButtons {
+            display: none;
+        }
+        .topInfo {
+            margin-left: -200px;
+        }
+        .topContent img {
+            width: 80%;
+        }
+        .pants {
+            margin-left: 140px;
+        }
+        .pantContent {
+            margin-left: -70px;
+        }
+        .pantInfo {
+            margin-left: 20px;
+            margin-right: -120px;
+        }
+        .shoeInfo {
+            margin-left: -200px;
+        }
+        .accessory {
+            margin-left: 140px;
+        }
+        .accContent {
+            margin-left: -70px;
+        }
+        .accInfo {
+            margin-left: 20px;
+            margin-right: -120px;
+        }
+        .ringInfo {
+            margin-left: -200px;
+        }
+        .dinosaur {
+            margin-top: -47%;
+        }
+    }
+    
+    @media only screen and (min-width: 843px) and (max-width: 1039px) {
+        body {
+            /* background-color: greenyellow; */
+        }
+        .logo img {
+            max-width: 450px;
+        }
+        .mobileNav {
+            display: none;
+        }
+        .topNav h1 {
+            font-size: 49px;
+        }
+        .navButtons2 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        .navButtons {
+            display: none;
+        }
+        .topInfo {
+            margin-left: -200px;
+        }
+        .pants {
+            margin-left: 200px;
+        }
+        .pantContent {
+            margin-left: -280px;
+        }
+        .pantInfo {
+            margin-left: 500px;
+            margin-right: -220px;
+        }
+        .pantTitle img {
+            width: 300px;
+        }
+        .slider-picPant img {
+            max-width: 300px;
+        }
+        .slider-arrowPant {
+            margin-right: 100px;
+        }
+        .shoeInfo {
+            margin-left: -200px;
+        }
+        .accessory {
+            margin-left: 190px;
+        }
+        .accContent {
+            margin-left: -70px;
+        }
+        .accInfo {
+            margin-left: 20px;
+            margin-right: -120px;
+        }
+        .rings {
+            margin-left: 50px;
+        }
+        .ringInfo {
+            margin-left: -200px;
+        }
+        .dinosaur {
+            margin-top: -47%;
+        }
+    }
+    
+    @media only screen and (min-width: 1040px) and (max-width: 1169px) {
+        body {
+            /* background-color: royalblue; */
+        }
+        .logo img {
+            max-width: 500px;
+        }
+        .mobileNav {
+            display: none;
+        }
+        .topNav h1 {
+            font-size: 49px;
+        }
+        .navButtons2 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        .navButtons {
+            display: none;
+        }
+        .topInfo {
+            margin-left: -200px;
+        }
+        .pants {
+            margin-left: 140px;
+        }
+        .pantContent {
+            margin-left: -70px;
+        }
+        .pantInfo {
+            margin-left: 20px;
+            margin-right: -120px;
+        }
+        .shoeInfo {
+            margin-left: -200px;
+        }
+        .accessory {
+            margin-left: 140px;
+        }
+        .accContent {
+            margin-left: -70px;
+        }
+        .accInfo {
+            margin-left: 20px;
+            margin-right: -120px;
+        }
+        .ringInfo {
+            margin-left: -200px;
+        }
+        .dinosaur {
+            margin-top: -47%;
+        }
+    }
+    
+    @media only screen and (min-width: 3000px) {
+        body {
+            /* background-color: pink; */
+        }
+        .mobileNav {
+            display: none;
+        }
+        .topNav h1 {
+            font-size: 49px;
+        }
+        .navButtons2 {
+            display: none;
+        }
+        .leftSide {
+            margin-left: -5%;
+        }
+        .leftSide h2 {
+            margin-left: -10px;
+        }
+        .rightContent {
+            margin-top: -30px;
+        }
+        .accessory h2 {
+            margin-top: 100px;
+        }
+    }
